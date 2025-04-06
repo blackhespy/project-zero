@@ -6,6 +6,9 @@ on:
     - cron: '15 12 * * *' # Runs daily at 12:15 PM UTC
     - cron: '45 20 * * *' # Runs daily at 8:45 PM UTC
 
+permissions:
+  contents: write 
+
 jobs:
   commit:
     runs-on: ubuntu-latest
